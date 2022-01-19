@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+}
+/* Nav bar */
+.container-fluid{
+    background-color: rgb(174, 248, 248);
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+.nav-item{
+    border-radius: 29px;
+    padding: 6px 20px;
+    margin: 0 77%;
+    font-weight: bold;
+    color: rgb(66, 61, 61);
+}
+.far{
+    color: rgb(226, 155, 179);
+}
+
+/* top section  */
+
+.image{
+    width: 100%;
+    padding: 8%;
+}
+.top-heading{
+    margin: 9% auto;
+    font-weight: bold;
+}
+.col-lg-5 p{
+    text-align: left;
+    color: rgb(97, 93, 93);
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 10%;
+}
+.btn-1{
+    border-radius: 40px;
+    margin: 43px auto 14px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    background-color: rgb(228, 51, 219);
+    color: white;
+    text-decoration: none;
+}
+.btn-1:hover{
+    background-color: rgb(228, 104, 222);
+}
+.btn-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Card section  */
+h4{
+    font-weight: bold;
+    margin: 8% auto;
+}
+.cards{
+    margin: 51px 6px;
+    border-radius: 30px;
+    border: 1.5px solid rgb(214, 209, 209);
+    box-shadow: rgb(184, 178, 178) 2px 2px 20px 2px ;
+}
+.cards-reverse{
+    flex-direction: row-reverse;
+}
+.card-body p{
+    margin: 0 9% 8%;
+}
+
+/* footer section  */
+
+.footer{
+    background-color: rgb(31, 31, 63);
+    color: rgb(223, 222, 228);
+}
+.col-lg-3{
+    margin: 149px -6px 0px;
+}
+.col-lg-3 p a{
+    color:rgb(223, 222, 228) ;
+}
+.ico{
+    color: white;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+@media screen and (max-width: 990px) {
+    .nav-item{
+        margin: 0 0%;
+    }
+    .foot-title{
+        margin-top: 50px;
+    }
+    .footer-text{
+        padding: 0 10%;
+    }
+    .col-lg-3{
+        margin: 0;
+    }
+    .foot-break{
+        margin-top: 25px;
+    }
+}
