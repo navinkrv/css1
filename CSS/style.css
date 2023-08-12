@@ -26,6 +26,11 @@ body{
     width: 100%;
     padding: 8%;
 }
+
+.cards .image{
+    height: 300px;
+    object-fit: cover;
+}
 .top-heading{
     margin: 9% auto;
     font-weight: bold;
